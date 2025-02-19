@@ -7,8 +7,8 @@ import utils
 
 class PixelFlipperEmbeder(Embeder):
     def __init__(self, params: dict):
-        self.coord1 = params['coord1'] if 'coord1' in params else (2, 1)
-        self.coord2 = params['coord2'] if 'coord2' in params else (1, 2)
+        self.coord1 = params['coord1'] if 'coord1' in params else (3,0)
+        self.coord2 = params['coord2'] if 'coord2' in params else (1,2)
         self.block_size = params['block_size'] if 'block_size' in params else 1
         
 

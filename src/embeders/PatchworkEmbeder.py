@@ -4,7 +4,7 @@ from dataclasses import dataclass
 import cv2
 import utils
 
-class PatchworkWatermarker(Embeder):
+class PatchworkEmbeder(Embeder):
 
     def __init__(self,
     bit_square_size: int = 8,
